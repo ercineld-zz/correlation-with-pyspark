@@ -11,7 +11,7 @@ spark = SparkSession \
     .getOrCreate()
 
 #Create our dataframe from CSV file
-df = spark.read.load('/home/ercin/Desktop/Icecream.csv', format="csv", sep=",", inferSchema="true", header="true")
+df = spark.read.load('/filepath/Icecream.csv', format="csv", sep=",", inferSchema="true", header="true")
 df.printSchema()
 df.show(2,truncate= True)
 
