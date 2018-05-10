@@ -1,8 +1,7 @@
 # correlation-with-pyspark
 Correlation from CSV data via PySpark
 
-######Description
-
+###### Description
 I have used ice cream data set. It indicates there is a relationship between ice cream consumption and temperature.
 
 - IC: Ice cream consumption in pints per capita
